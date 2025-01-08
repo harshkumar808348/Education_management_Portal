@@ -50,15 +50,14 @@ You can watch the demo of the project here:
   CLOUDINARY_API_KEY=<your-cloudinary-api-key>
   CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
   JWT_SECRET=<your-jwt-secret>
-## Frontend Setup
-  cd frontend
-  npm install
-  Run the Project
-Backend: Start the backend server:
-npm start
-Frontend: Run the frontend development server:
-npm run dev
 
+  ## Frontend Setup
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
 
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/image1.png)
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203430.png)
