@@ -59,15 +59,12 @@ You can watch the demo of the project here:
    npm install
    npm run dev
 
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/image1.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203430.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203519.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203550.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203619.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203643.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203719.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20204245.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20204313.png)
+![image alt](https://github.com/harshkumar808348/iMAGES-EDUCATION-PORTAL/blob/cd9dd78dac04d3be1eaf53fd578d428d6c108057/image1.png)
+![image alt](https://github.com/harshkumar808348/iMAGES-EDUCATION-PORTAL/blob/cd9dd78dac04d3be1eaf53fd578d428d6c108057/Screenshot%202025-01-08%20203430.png)
+![image alt](https://github.com/harshkumar808348/iMAGES-EDUCATION-PORTAL/blob/cd9dd78dac04d3be1eaf53fd578d428d6c108057/Screenshot%202025-01-08%20203550.png)
+![image alt](https://github.com/harshkumar808348/iMAGES-EDUCATION-PORTAL/blob/cd9dd78dac04d3be1eaf53fd578d428d6c108057/Screenshot%202025-01-08%20204245.png)
+![image alt](https://github.com/harshkumar808348/iMAGES-EDUCATION-PORTAL/blob/cd9dd78dac04d3be1eaf53fd578d428d6c108057/Screenshot%202025-01-08%20204313.png)
+
 
 
 
