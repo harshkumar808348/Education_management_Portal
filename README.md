@@ -44,7 +44,6 @@ You can watch the demo of the project here:
 **XLSX**  
 **clsx**  
 ---
-
 ## Steps to Run the Project
 
 ### 1. Backend Setup
@@ -54,18 +53,17 @@ You can watch the demo of the project here:
   npm install
   Create a .env file in the root directory and add the following environment variables:
   PORT=3000
-MONGO_URI=<your-mongo-uri>
-EMAIL_PASSWORD=<your-email-password>
-EMAIL_USER=<your-email-user>
-CLOUDINARY_NAME=<your-cloudinary-name>
-CLOUDINARY_API_KEY=<your-cloudinary-api-key>
-CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
-JWT_SECRET=<your-jwt-secret>
-
- Frontend Setup
- cd frontend
-npm install
-Run the Project
+  MONGO_URI=<your-mongo-uri>
+  EMAIL_PASSWORD=<your-email-password>
+  EMAIL_USER=<your-email-user>
+  CLOUDINARY_NAME=<your-cloudinary-name>
+  CLOUDINARY_API_KEY=<your-cloudinary-api-key>
+  CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
+  JWT_SECRET=<your-jwt-secret>
+## Frontend Setup
+  cd frontend
+  npm install
+  Run the Project
 Backend: Start the backend server:
 npm start
 Frontend: Run the frontend development server:
