@@ -11,7 +11,7 @@ const PaymentDetails = () => {
 
   const fetchPayments = async () => {
     try {
-      const response = await fetch('http://localhost:3000/MainAdmin/PaymentDetails');
+      const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/PaymentDetails');
       if (!response.ok) {
         throw new Error('Failed to fetch payments');
       }

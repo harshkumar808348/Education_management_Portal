@@ -10,7 +10,7 @@ const Class9 = () => {
   useEffect(() => {
     const fetchClass9Data = async () => {
       try {
-        const response = await fetch('http://localhost:3000/educational-services/class9');
+        const response = await fetch('https://education-management-portal-1.onrender.com/educational-services/class9');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

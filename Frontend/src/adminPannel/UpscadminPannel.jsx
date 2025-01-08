@@ -127,7 +127,7 @@ const UpscAdminPanel = () => {
     submitFormData.append('image', image);
 
     try {
-      const response = await fetch('http://localhost:3000/MainAdmin/UpscAdminPanel', {
+      const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/UpscAdminPanel', {
         method: 'POST',
         body: submitFormData,
       });

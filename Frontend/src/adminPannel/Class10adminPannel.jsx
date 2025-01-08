@@ -127,7 +127,7 @@ const Class10AdminPanel = () => {
     submitFormData.append('image', image);
 
     try {
-      const response = await fetch('http://localhost:3000/MainAdmin/Class10adminPannel', {
+      const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/Class10adminPannel', {
         method: 'POST',
         body: submitFormData,
       });

@@ -31,7 +31,7 @@ const Payment = () => {
     const fullTransactionTime = `${transactionHour} ${transactionAMPM}`;
   
     try {
-      const response = await fetch('http://localhost:3000/MainAdmin/PaymentDetails', {
+      const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/PaymentDetails', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

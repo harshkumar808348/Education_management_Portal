@@ -30,7 +30,7 @@ const BookingForm = () => {
     setSaveStatus('Saving...');
 
     try {
-      const response = await fetch('http://localhost:3000/MainAdmin/save-booking', {
+      const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/save-booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

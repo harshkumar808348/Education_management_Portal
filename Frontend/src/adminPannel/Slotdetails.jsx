@@ -8,7 +8,7 @@ const SlotDetails = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const response = await fetch('http://localhost:3000/MainAdmin/get-bookings');
+        const response = await fetch('https://education-management-portal-1.onrender.com/MainAdmin/get-bookings');
         const data = await response.json();
         
         if (data.success) {
