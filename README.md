@@ -66,8 +66,6 @@ You can watch the demo of the project here:
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203619.png)
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203643.png)
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203719.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203754.png)
-![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20203820.png)
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20204245.png)
 ![image alt](https://github.com/harshkumar808348/Education_management_Portal/blob/16f4cf4dd86f6c19adb3453118be2b27325e5576/Screenshot%202025-01-08%20204313.png)
 
