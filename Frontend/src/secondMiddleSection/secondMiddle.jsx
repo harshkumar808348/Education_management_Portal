@@ -33,71 +33,71 @@ const  TechnologySection = () => {
               <Card
                 title="Frontend Development"
                 description="Learn modern frontend development techniques."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Learn More"
+                imageUrl="../src/assets/frontend.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/frontend-development"
               />
               <Card
                 title="Advanced Frontend Development"
                 description="Master advanced frontend development."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="View Details"
+                imageUrl="../src/assets/frontend.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/advanced-frontend-development"
               />
               <Card
                 title="Backend Development"
                 description="Learn backend technologies and frameworks."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/backend.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/backend-development"
               />
               <Card
                 title="Advanced Backend Development"
                 description="Advanced techniques for backend programming."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/backend.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/advanced-backend-development"
               />
               <Card
                 title="App Development"
                 description="Develop cross-platform applications."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/app.avif"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/app-development"
               />
               <Card
                 title="Machine Learning"
                 description="Explore the world of machine learning."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/machine.webp"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/machine-learning"
               />
               <Card
                 title="Deep Learning"
                 description="Dive deep into deep learning technologies."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/deep.png"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/deep-learning"
               />
               <Card
                 title="Blockchain"
                 description="Learn about blockchain technology."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/block.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/blockchain"
               />
               <Card
                 title="UI/UX"
                 description="Enhance user experiences with UI/UX design."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/uiux.avif"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/ui-ux"
               />
               <Card
                 title="DevOps"
                 description="Master the principles of DevOps."
-                imageUrl="https://via.placeholder.com/400x300"
-                buttonText="Explore"
+                imageUrl="../src/assets/dev.jpg"
+                buttonText="Ask My Teacher"
                 linkTo="/technology-services/devops"
               />
             </div>

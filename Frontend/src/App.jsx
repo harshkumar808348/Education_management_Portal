@@ -16,6 +16,7 @@ import AdminLogin from '../src/adminPannel/adminLogin.jsx';
 import AdminRegister from '../src/adminPannel/adminRegister.jsx';
 import { useAutoLogout } from '../src/hooks/useAutoLogout.jsx'; // Import the auto-logout hook
 import FourthMiddle from '../src/fourthSection.jsx/adminandteacher.jsx';
+import Footer from "../src/Footer/footer.jsx";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -43,6 +44,7 @@ function App() {
               <FourthMiddle />
               <MiddleSection />
               <SecondMiddle />
+              <Footer />
               
             </>
           }

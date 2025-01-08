@@ -55,7 +55,7 @@ const Sidebar = ({ collapsed, setCollapsed }) => (
   >
     {/* Sidebar Header */}
     <div className="flex items-center justify-between p-4 border-b">
-      {!collapsed && <span className="font-bold text-sm tracking-wider">JusTFree.com</span>}
+      {!collapsed && <span className="font-bold text-sm tracking-wider">Justfree.com </span>}
       <button
         onClick={() => setCollapsed(!collapsed)}
         className="p-1 rounded-lg hover:bg-gray-100 transition-colors"
@@ -159,7 +159,7 @@ const MainAdmin = () => {
             element={
               <div>
                 <h1 className="text-xl font-bold">Welcome to Admin Dashboard</h1>
-                <p className="mt-2 text-gray-600">Select an option from the sidebar to get started.</p>
+                <p className="mt-2 text-gray-600">Welcome to Ask My Teacher Admin Dashboard.</p>
               </div>
             }
           />

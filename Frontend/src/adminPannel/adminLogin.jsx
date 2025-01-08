@@ -34,9 +34,13 @@ const AdminLogin = () => {
   };
 
   return (
+    
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-lg shadow-md">
+       <h1 className="text-4xl font-bold mb-8">Welcome to Admin login </h1>
+      
+      <div className="max-w-md w-full space-y-8  ml-5 p-8 bg-white rounded-lg shadow-md">
         <div>
+          
           <h2 className="text-center text-3xl font-extrabold text-gray-900">
             Admin Login
           </h2>
@@ -88,6 +92,7 @@ const AdminLogin = () => {
           </div>
         </form>
       </div>
+      
     </div>
   );
 };

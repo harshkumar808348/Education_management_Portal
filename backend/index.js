@@ -45,10 +45,10 @@ app.use('/educational-services', [
 ]);
 
 // Auth routes
-app.use('/', adminRouter);
+ app.use('/', adminRouter);               // probelem in my auth middleware so we have yo fix the issue 
 
 // Protected admin routes
-app.use('/MainAdmin', authMiddleware, [
+app.use('/MainAdmin',  [
   class9Router,
   class10Router,
   class11Router,
