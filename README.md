@@ -32,17 +32,7 @@ You can watch the demo of the project here:
 ---
 
 ## Frontend Technologies
-**React**  
-**Vite**  
-**Tailwind CSS**  
-**React Router DOM**  
-**Framer Motion**  
-**Lucide React**  
-**React Icons**  .
-**React Pro Sidebar**  
-**React Toastify**  
-**XLSX**  
-**clsx**  
+**React**    
 ---
 ## Steps to Run the Project
 
