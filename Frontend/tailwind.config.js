@@ -1,33 +1,34 @@
 import svgToDataUri from 'mini-svg-data-uri';
-import  {flattenColorPalette}  from 'tailwindcss/lib/util/flattenColorPalette';
-
-// Rest of your tailwind config...
+import plugin from 'tailwindcss/plugin';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-
   theme: {
     extend: {},
   },
   plugins: [
-    function addVariablesForColors({ addBase, theme }) {
-      const allColors = flattenColorPalette(theme("colors"));
-      const newVars = Object.fromEntries(
+    // Color variables plugin
+    plugin(({ addBase, theme }) => {
+      let allColors = flattenColorPalette(theme('colors'));
+      let newVars = Object.fromEntries(
         Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
       );
-   
+      
       addBase({
-        ":root": newVars,
+        ':root': newVars,
       });
-    },
-    function({ matchUtilities, theme }) {
+    }),
+    
+    // Dot pattern plugin
+    plugin(({ matchUtilities, theme }) => {
       matchUtilities(
         {
-          "bg-dot-thick": (value) => ({
+          'bg-dot-thick': (value) => ({
             backgroundImage: `url("${svgToDataUri(
               `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none"><circle fill="${value}" id="pattern-circle" cx="10" cy="10" r="2.5"></circle></svg>`
             )}")`,
@@ -35,7 +36,19 @@ module.exports = {
         },
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
-    },
-   
+    }),
   ],
 };
+
+function flattenColorPalette(colors) {
+  return Object.assign(
+    {},
+    ...Object.entries(colors ?? {}).flatMap(([color, values]) =>
+      typeof values == 'object'
+        ? Object.entries(flattenColorPalette(values)).map(([number, hex]) => ({
+            [color + (number === 'DEFAULT' ? '' : `-${number}`)]: hex,
+          }))
+        : [{ [`${color}`]: values }]
+    )
+  );
+}
